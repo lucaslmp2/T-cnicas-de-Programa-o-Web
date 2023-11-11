@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(247, 248, 249);
+    text-align: center;
+}
+#tabela{
+    background-color: rgb(247, 248, 249);
+    border-radius: 12px;
+    display: inline-flex;
+}
+input{
+    margin: 10px;
+    border-radius: 10px;
+    border-color: rgb(194, 230, 16);
+    text-align: center;
+    background-color: rgb(194, 230, 16);
+}
+
+table, tr, td{
+    border: 2px;
+    border-radius: 8px;
+    border-style:outset;
+    border-color: rgb(194, 230, 16);
+}
+button{
+    border: 2px;
+    border-radius: 19px;
+    border-style: outset;
+    border-color: rgb(194, 230, 16);
+}
+h1{
+    color: rgb(6, 25, 148);
+}
+h3{
+    color: rgb(6, 25, 148);
+}
+p{
+    color: blue;
+    text-decoration-color: rgb(130, 230, 136);
+    text-decoration-line: underline;
+}
