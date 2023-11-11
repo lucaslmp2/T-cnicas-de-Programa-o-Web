@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Crescimento Populacional</title>
+</head>
+<body>
+    <header><h1>Crescimento Populacional</h1></header>
+    <main>
+        <div id="entrada">
+            <label for=" ">Ano Inicial</label>
+            <input placeholder="Insira o primeiro ano" class="produto" type="number" id="inicial">
+            <label for=" ">População</label><br>
+            <input placeholder="Insira a população inicial" class="populacao"  type="number" id="populacao"><br>
+            <label for=" ">Taxa de Crescimento</label>
+            <input placeholder="Taxa%"  type="number" class="taxa" id="taxa">
+            <label for=" ">Ano Final</label>
+            <input placeholder="Insira o ano final" type="number" class="final" id="final" >
+        </div>
+        <button onclick="calcularPopulacao()">Calucular</button>
+        <div id="tabela">
+            <table id="tablPopulacao">
+                <tr>
+                    <td>População dos próximos anos</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

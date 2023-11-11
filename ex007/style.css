@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(172, 183, 106);
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+div{
+    padding: 10px;
+    border: 10px;
+    display: grid;
+    text-align: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(14, 75, 14);
+}
+tr{
+    display: flexbox;
+    margin: auto;
+    padding: auto;
+}
+td{
+    background-color: rgb(238, 234, 177);
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label{
+    color: rgb(26, 66, 26);
+    padding: 1rem;
+    display: flex;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    background-color: rgba(99, 91, 75, 0.735);
+    border-radius: 12px;
+}
+button{
+    width: 200px;
+    padding: 1.0rem;
+    border-width: 1rem;
+    border-color: rgba(20, 89, 6, 0.637);
+    color: rgb(247, 244, 244);
+    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    color: black;
+    background-color: rgba(248, 246, 246, 0.981);
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    padding: auto;
+    font-size: x-large;
+}
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
