@@ -1,40 +1,51 @@
 body{
-    background-color: rgb(247, 248, 249);
+    background-color: rgba(244, 245, 238, 0.54);
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
 #tabela{
-    background-color: rgb(247, 248, 249);
+    background-color: rgba(253, 253, 251, 0.54);
     border-radius: 12px;
     display: inline-flex;
 }
 input{
     margin: 10px;
     border-radius: 10px;
-    border-color: rgb(194, 230, 16);
+    border-color: darkblue;
     text-align: center;
-    background-color: rgb(194, 230, 16);
+    background-color: rgba(248, 249, 249, 0.604);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
-
 table, tr, td{
     border: 2px;
-    border-radius: 8px;
+    border-radius: 7px;
     border-style:outset;
-    border-color: rgb(194, 230, 16);
+    border-color: rgb(1, 38, 250);
 }
+
 button{
+    background-color: darkblue;
     border: 2px;
-    border-radius: 19px;
+    border-radius: 10px;
     border-style: outset;
-    border-color: rgb(194, 230, 16);
+    border-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: azure;
 }
 h1{
-    color: rgb(6, 25, 148);
+    color: darkblue;
 }
-h3{
-    color: rgb(6, 25, 148);
+h5{
+    color:darkblue;
+    margin: 0 auto;
+    height: 10px;
+    text-align:center;
 }
 p{
-    color: blue;
-    text-decoration-color: rgb(130, 230, 136);
+    color: darkblue;
+    text-decoration-color: darkblue;
     text-decoration-line: underline;
 }
